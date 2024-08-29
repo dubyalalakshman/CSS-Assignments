@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+div{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 2px solid red;
+  transition: all;
+  /* transform: translateX(100px) translateY(100px);
+  transform: translate(100px,100px);
+  transform: rotateX('170deg') rotateY('60deg');
+  transform: scaleX(2) scaleY(2); */
+}
+div:hover{
+    transform: skewX(50deg) skewY(45deg) rotate(30deg) translate(100px, 200px) scale(2);
+}

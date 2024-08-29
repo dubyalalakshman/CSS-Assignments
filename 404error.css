@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 200px auto 400px;
+    grid-template-areas:   
+    "a b c"
+    ;
+    gap:5px red;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlbY0q6l0rFNseZ9Nc9lt-mqi4bg5DqrTDVA&s);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    position: fixed;
+   
+}
+.child1{
+    grid-area: a;
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+.child2{
+    grid-area: b;
+    position: relative;
+    top: 170px;
+    left: 200px;
+}
+.child3{
+    grid-area: c;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    animation: img1 5s linear 5s infinite forwards;
+}
+@keyframes img1 {
+    to{
+        transform: translateY(0px);
+        animation-delay: 5s;
+    }
+    from{
+        transform: translateY(20px);
+        animation-delay: 5s;
+    }
+}
+
+.a1{
+    position: relative;
+    top: 0;
+    font-size: 4cm;
+    color: aliceblue;
+    animation: img11 5s linear 4s infinite both;
+}
+@keyframes img11 {
+    to{
+        transform: translateY(0px);
+        animation-delay: 4s;
+    }
+    from{
+        transform: translateY(20px);
+        animation-delay: 4s;
+    }
+}
+.a1>span{
+    position: relative;
+    top: 0;
+    font-size: 4cm;
+    color: aliceblue;
+    animation: img2 4s linear 6s infinite forwards;
+}
+@keyframes img2 {
+    to{
+        transform: translateY(0px);
+        /* animation-delay: 2s;
+        animation-duration: 5s; */
+    }
+    from{
+        transform: translateY(20px);
+        /* animation-delay: 2s;
+        animation-duration: 5s; */
+    }
+}
+/* .a3{
+    position: relative;
+    top: 0;
+    font-size: 4cm;
+    color: aliceblue;
+    animation: img3 5s linear 5s infinite forwards;
+} */
+.b4{
+    position: relative;
+    top: 0;
+    font-size: 1.5cm;
+    color: rgb(83, 74, 129);
+    animation: img2 2s linear 2s infinite forwards;
+}
+.b4>span{
+    position: relative;
+    top: 0;
+    font-size: 1.5cm;
+    color: rgb(139, 103, 187);
+}
+
+
+/* @keyframes img3 {
+    to{
+        transform: translateY(0px);
+        animation-delay: 5s;
+    }
+    from{
+        transform: translateY(20px);
+        animation-delay: 5s;
+    }
+} */

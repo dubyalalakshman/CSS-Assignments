@@ -1,0 +1,40 @@
+/* different types of position props in css
+1.static
+2.relative
+3.obsolute
+4.fixed 
+5.sticky */
+/* to move the elemnets to certain positions top,bottom,right,left */
+/* default */
+h1{
+    position: static;
+    top: 100px;
+    bottom: 100px;  
+    right: 100px;
+}
+/* position relative will move relative to the element*/
+/* position relative will movefrom root document untill there is no previous elemnt before  */
+h1{
+    position:relative ;
+    top: 100px;
+    left: 100px;
+}
+div{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+}
+h2{
+    color: red;
+    position: absolute;
+    top: 10px;
+}
+div{
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: aqua;
+}

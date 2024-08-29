@@ -1,0 +1,27 @@
+div{
+    position: relative;
+}
+img{
+    position: absolute;
+}
+#id1{
+    top: 50px;
+    left: 50px;
+}
+#id2{
+    top: 100px;
+    left: 100px;
+}
+#id3{
+    top: 150px;
+    left: 150px;
+    z-index: 3;
+}
+#id4{
+    top: 200px;
+    left: 200px;
+}
+#id5{
+    top: 250px;
+    left: 250px;
+}

@@ -1,0 +1,130 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   padding: 10rem;
+/* transform: translate(250px,250px); */
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 500px;
+    align-self: center;
+}
+.container1{
+    border: 2px solid;
+    background-color: rgb(104, 104, 242);
+    height: 50vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    border-radius: 15px;
+   
+}
+.result{
+    display: flex;
+    justify-content: center;
+    padding: .7rem;
+}
+.container-result{
+    background-color: rgb(84, 84, 224);
+    border-radius: 50%;
+   display: flex;
+   align-items: center;
+   align-content: space-around;
+   justify-content: space-around;
+    height: 9rem;
+    width: 9rem;
+    text-align: center;
+    
+}
+.grad>span{
+    font-size: 2cm;
+}
+.container-text{
+    text-align: center;
+    padding: 1.5rem;
+}
+.container2{
+    /* border: 2px solid; */
+    height: 50vh;
+    width: 250px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(235, 237, 239);
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+   
+    padding: .3rem;
+    border-radius: 5px;
+    margin: .7rem;
+    margin-bottom: 1.8rem;
+    width: 180px;
+}
+.bi{
+    /* border: 1px solid; */
+    font-size: 1.5rem;
+    padding-right: 8px;
+    
+}
+.container35{
+    background-color: rgb(26, 26, 62);
+    color: aliceblue;
+    border-radius: 70px;
+    width: 180px;
+    padding: .3rem;
+    margin: .7rem;
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+.marks{
+    color: black;
+}
+.per100{
+    color: rgb(124, 132, 139);
+}
+.container31{
+    background-color: rgb(243, 180, 180);
+    color: rgb(209, 118, 79);
+}
+
+.container32{
+    background-color: rgb(204, 204, 140);
+    color: rgb(161, 128, 84);
+}
+.container33{
+    background-color: rgb(184, 211, 164);
+    color: rgb(16, 132, 83);
+}
+.container34{
+    background-color: rgb(182, 221, 218);
+    color:  rgb(69, 162, 154);
+}
+.container311{
+    color: red;
+}
+.container321{
+    color: rgb(120, 115, 13);
+}
+.container331{
+    color: rgb(16, 132, 83);
+}
+.container341{
+    color: rgb(90, 92, 209);
+}

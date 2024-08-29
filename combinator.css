@@ -1,0 +1,20 @@
+/* child selector (>ox) */
+/* div>p{
+    background-color: red;
+} */
+ /* descendent select(space) */
+ /* div p{
+    background-color: aqua;
+ } */
+  
+  /* section>p{
+    background-color: aqua;
+  } */
+   /* sibling selctor(+) */
+div+h3{
+    background-color: blue;
+}
+/* general sibling selector */
+div~h2{
+    background-color: blueviolet;
+}

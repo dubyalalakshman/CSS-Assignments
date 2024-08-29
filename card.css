@@ -1,0 +1,14 @@
+/* /1 rem=16px */
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+border: 2px solid blueviolet;
+width: 250px;
+padding: 1rem;
+}
+img{
+    width: 100%;
+}

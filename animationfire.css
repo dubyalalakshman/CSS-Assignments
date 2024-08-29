@@ -1,0 +1,176 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.w1{
+    position: relative;
+    top: 500px;
+    left: 700px;
+    right: 400px;
+    height: 50px;
+    width: 200px;
+    /* border: 2px solid; */
+    border-radius: 15px;
+    background-color: rgb(69, 15, 15);
+    color:  rgb(148, 25, 25);
+    transform: rotate(-20deg);
+    z-index: 100;
+}
+.w2{
+    position: relative;
+    top: 450px;
+    left: 610px;
+    right: 400px;
+    height: 50px;
+    width: 200px;
+    color:  rgb(148, 25, 25);
+    /* border: 2px solid; */
+    border-radius: 15px;
+    background-color: rgb(69,15,15);
+    transform: rotate(20deg);
+    z-index: 100;
+}
+.fire1{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    transform: rotate(45deg);
+    position: relative;
+    top: 220px;
+    left: 705px;
+    border-radius: 15px;
+    background-color: orangered;
+    color: orangered;
+    animation: fires 1s 1s linear infinite forwards ;
+}
+.fire1{
+    transform: rotate(45deg);
+}
+@keyframes fires {
+    0%{
+        transform: translateY(10px) scale(-1) rotate(45deg);
+        animation-duration: 1s;
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(227, 193, 130);
+    }
+    20%{
+        transform: translateY(-40px) scale(1.5) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(202, 142, 31);
+        animation-duration: 4s;
+        animation-delay: 4s;
+    }
+    40%{
+        transform: translateY(-60px) scale(1) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(148, 89, 43) ;
+        animation-duration: 2s;
+        animation-delay: 2s;
+    }
+    60%{
+        transform: translateY(-100px) scale(.5) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(223, 98, 48) ;
+    }
+    80%{
+        transform: translateY(-150px) scale(.3) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(142, 69, 16) ;
+        animation-duration: 2s;
+        animation-delay: 2s;
+    }
+    100%{
+        transform: translateY(-200px) scale(.1) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(147, 40, 31);
+        animation-duration: 4s;
+        animation-delay: 4s;
+    }
+}
+.fire2{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid; */
+    transform: rotate(45deg);
+    position: relative;
+    top: 180px;
+    left: 710px;
+    border-radius: 15px;
+    background-color: orangered;
+    color: orangered;
+    animation: fires1 1s 1s linear infinite forwards ;
+}
+
+@keyframes fires1 {
+    0%{
+        transform: translateY(10px) scale(-1) rotate(45deg);
+        animation-duration: 1s;
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(227, 193, 130);
+    }
+    50%{
+        transform: translateY(-40px) scale(1.2) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(202, 142, 31);
+        animation-duration: 1s;
+    }
+    80%{
+        transform: translateY(-60px) scale(1) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(196, 177, 107) ;
+        animation-duration: 4s;
+        animation-delay: 4s;
+    }
+    100%{
+        transform: translateY(-60px) scale(0.5) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(227, 120, 71) ;
+        animation-duration: 4s;
+        animation-delay: 4s;
+    }
+   
+}
+.fire3{
+    height: 70px;
+    width: 70px;
+    /* border: 1px solid; */
+    transform: rotate(45deg);
+    position: relative;
+    top: 120px;
+    left: 715px;
+    border-radius: 15px;
+    background-color: orangered;
+    color: orangered;
+    animation: fires3 1s 1s linear infinite forwards ;
+}
+
+@keyframes fires3 {
+    0%{
+        transform: translateY(10px) scale(-1) rotate(45deg);
+        animation-duration: 1s;
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(198, 139, 29);
+    }
+    100%{
+        transform: translateY(-40px) scale(2) rotate(45deg);
+        /* width: 20px;
+        height: 20px; */
+        background-color: rgb(177, 141, 75);
+        animation-duration: 1s;
+    }
+}

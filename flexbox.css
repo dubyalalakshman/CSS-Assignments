@@ -1,0 +1,70 @@
+/* flex box is usedd for 1D layout used for arranging the item either is row or coloumn  */
+/* uses case nav bars footers product caarts simple layouts image gallerys etc*/
+/* benefits-verticalcentering coustum-ordering dynamic in size */
+/* flexbox depends on prents nd child properties */
+/* parent props
+   -flex direction:row(defult),row reverse,column,column reverse 
+   -flex-wrap:no-wrap(default),wrap
+   -flex-flow :(shortend property for flex-direction & flex wrap)
+  H- justify-content:strt,end,space between,spACE AROUND,SPACE EVENLY,stretch,center
+  V -align items:strt,end,stretch,center
+  V all -align-content:strt,end,space between,spACE AROUND,SPACE EVENTLY,stretch,center
+*/
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.parent{
+    height: 100vh;
+ 
+ border: 2px solid;
+ display: flex;
+ /* flex-direction:column */
+ /* flex-direction: column-reverse; */
+ flex-direction: row;
+ /* flex-direction: row-reverse; */
+ flex-wrap: wrap;
+ /* flex-wrap: nowrap; */
+ flex-flow: wrap row;
+ /* justify-content: start; */
+ justify-content: end;
+ justify-content: center;
+ justify-content: space-around;
+ justify-content: space-evenly;
+ justify-content: space-between;
+ justify-content: stretch;
+ align-items: start;
+ align-items: center;
+ align-items: end;
+ 
+ align-content: center;
+
+}
+.child{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    padding: 1.5rem;
+    
+}
+.child1{
+    flex-grow: 1;
+
+}
+.child2{
+    flex-shrink: 2;
+    flex-basis: 100px;
+    width: 100px;
+    /* flex bsis will override the width */
+}
+.child3{
+    
+}
+.child4{
+    
+}
+.child5{
+    
+}
